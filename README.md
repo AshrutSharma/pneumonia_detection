@@ -47,24 +47,6 @@ docker-compose up --build
 3. Click "Analyze X-Ray"
 4. View the prediction results
 
-## Project Structure
-pneumonia-app/
-├── backend/
-│   ├── Dockerfile
-│   ├── requirements.txt
-│   ├── app.py
-│   └── resnet152_pneumonia_baseline.keras (not included - add your own)
-├── frontend/
-│   ├── Dockerfile
-│   ├── nginx.conf
-│   ├── package.json
-│   ├── tailwind.config.js
-│   ├── public/
-│   └── src/
-│       └── App.js
-├── docker-compose.yml
-└── README.md
-
 ## Model Training
 
 The model was trained using:
